@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #0a0f1f;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+.gradient-ring {
+  background: conic-gradient(from 180deg at 50% 50%, #22d3ee22, #6366f122, #a855f722, #22d3ee22);
+  filter: blur(60px);
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl font-semibold transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 hover:shadow-glow;
+}
+
+.btn-ghost {
+  @apply bg-white/10 text-white hover:bg-white/20 border border-white/20;
+}
+
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg;
+}
