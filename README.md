@@ -1,59 +1,33 @@
+
 # AI Tools Hub – Next.js + TypeScript + Tailwind + Framer Motion
 
-A premium, highly interactive landing experience for an AI tools platform. Portfolio‑ready to impress global clients and startups.
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-ai--tools--hub-blueviolet?style=for-the-badge)](https://ai-tools-hub-landingpage.vercel.app/)
+
+A **modern, premium, and fully responsive landing page** showcasing AI-powered tools.  
+Built with **Next.js, TypeScript, Tailwind CSS, and Framer Motion** to deliver smooth animations and an impressive user experience.  
 
 **Developer — Bushra Sayyed**
 
-## Tech Stack
-- Next.js 14 (App Router) + TypeScript
-- Tailwind CSS
-- Framer Motion
-- lucide-react icons
+---
 
-## Project Structure
-```
-app/
-  layout.tsx
-  page.tsx                # Landing
-  signin/page.tsx         # Sign In (with AI robot)
-  trial/page.tsx          # Free Trial
-  features/page.tsx       # Features grid
-components/
-  Navbar.tsx
-  Hero.tsx
-  Footer.tsx
-  Sections/
-    Features.tsx
-    Demo.tsx
-    Pricing.tsx
-    Testimonials.tsx
-    CTA.tsx
-  ui/
-    AnimatedButton.tsx
-lib/
-  data.ts                 # features & testimonials
-  utils.ts
-public/
-  (optional assets)
-```
+## ✨ Tech Stack
+- ⚡ **Next.js (App Router) + TypeScript**  
+- 🎨 **Tailwind CSS**  
+- 🌀 **Framer Motion** (animations & transitions)  
+- 🔗 **lucide-react icons**  
 
-## Getting Started
+---
+
+## 🚀 Getting Started
 ```bash
-# 1) Install deps
-pnpm i   # or: npm i  |  yarn
+# 1) Install dependencies
+pnpm i   # or: npm i  |  yarn install
 
-# 2) Dev
+# 2) Run development server
 pnpm dev # or: npm run dev  |  yarn dev
 
-# 3) Build
-pnpm build && pnpm start
-```
+# 3) Open in browser
+http://localhost:3000
+````
 
-## Notes
-- All primary CTAs are wired:
-  - **Sign In** → `/signin`
-  - **Start Free Trial** / **Get Started** → `/trial`
-  - **Explore All Features** → `/features`
-  - **Pricing / Demo** nav items scroll to sections on the home page (`/#pricing`, `/#demo`).
-- Fully responsive (mobile → 4K), animated reveal & hover effects.
-- Footer credits: **Developer — Bushra Sayyed**.
+---
